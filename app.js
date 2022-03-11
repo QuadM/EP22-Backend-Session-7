@@ -23,7 +23,7 @@ async function main() {
 }
 
 app.get("/", (req, res) => {
-  res.send("Hello000000000");
+  res.send("<h1>Hello000000000</h1>");
 });
 
 app.listen(port, () => {
